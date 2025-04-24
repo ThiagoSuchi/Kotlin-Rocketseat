@@ -12,6 +12,12 @@ fun main() {
     setMutable.add(22)
     println(setMutable)
 
+    // hashSetOf - è mais eficiente e rápido,
+    // não garante a mesma ordem dos elementos,
+    // é mutável
+    val hashSet = hashSetOf(1, 2, 3)
+    println(hashSet)
+
     // mapOf - é usada para criar um mapa imutável (ou seja, que não pode ser alterado depois de criado).
     // Um mapa (ou dicionário) é uma coleção que armazena pares de chave e valor (key -> value)
     // e não aceita chaves duplicadas.
@@ -36,6 +42,12 @@ fun main() {
         100..200 to 1
     )
     println(mutableMap)
+
+    // hashMapOf - è mais eficiente e rápido,
+    // não garante a mesma ordem dos elementos,
+    // é mutável
+    val hashMap = hashMapOf(2 to "joão")
+    println(hashMap)
 
     // OBS: Ambas são formas de criar um par de chave-valor. Kotlin permite duas formas:
     // Forma 1 - Pair(a, b)
