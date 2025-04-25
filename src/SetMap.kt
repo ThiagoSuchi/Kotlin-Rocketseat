@@ -14,7 +14,7 @@ fun main() {
 
     // hashSetOf - è mais eficiente e rápido,
     // não garante a mesma ordem dos elementos,
-    // é mutável
+    // é mutável, armazena elemento único
     val hashSet = hashSetOf(1, 2, 3)
     println(hashSet)
 
@@ -43,9 +43,9 @@ fun main() {
     )
     println(mutableMap)
 
-    // hashMapOf - è mais eficiente e rápido,
+    // hashMap Of - è mais eficiente e rápido,
     // não garante a mesma ordem dos elementos,
-    // é mutável
+    // é mutável, armazena elemento único
     val hashMap = hashMapOf(2 to "joão")
     println(hashMap)
 
