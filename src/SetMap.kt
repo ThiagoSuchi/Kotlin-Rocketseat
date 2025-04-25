@@ -27,7 +27,7 @@ fun main() {
         3 to "typescript",
         4 to "javascript"
     )
-    println(map)
+    println(map.get(3))
 
     println(map.size)// tamanho
     println(map.keys)// chaves
